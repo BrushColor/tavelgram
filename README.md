@@ -1,7 +1,7 @@
 # Travelgram
 
 <div align="center">
-    <img src="./.github/README-print.png.jpg" alt="preview">
+    <img src="./.github/print.png" alt="preview">
 </div>
 
 > Formação FullStack
