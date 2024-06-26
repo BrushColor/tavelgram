@@ -3,6 +3,7 @@ header {
 }
 
 #profile {
+  font: var(--text-md);
   display: flex;  
   gap: 32px;
 }
@@ -17,8 +18,11 @@ header {
   margin-bottom: 8px;
 }
 
-#profile p {
-  font: var(--text-md);
+#profile img {
+  height: 176px;
+  width: 176px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .container {
