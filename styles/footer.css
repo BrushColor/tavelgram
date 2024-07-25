@@ -1,11 +1,35 @@
-footer {
+.container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
   padding-block: 24px;
-  gap: 24px;
-
-  font: 14px/150% var(--font-family);
+  gap: 16px;
+  font: var(--text-sm);
+  
 }
 
-footer span:nth-child(1) {
-  margin-right: auto; 
+span {
+  color: var(--text-color-secondary);
+}
+
+span:hover {
+  color: var(--brand-color);
+}
+
+/* Media Queries */
+@media (width >= 80rem) {
+  .container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+
+    span:nth-child(1) {
+      margin-right: auto;
+    }
+
+    span {
+      text-align: center;
+    }
+}
 }
